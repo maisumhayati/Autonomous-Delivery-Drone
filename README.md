@@ -19,8 +19,10 @@ sector by providing efficient transport management as it cut downs the vehicle f
 time of the human labor responsible for the parcel delivery. The idea is to use the technology in
 order to help humanity and a system like this can bring hope that not all tasks are futile.
 
-###Methodology and Equipment/Tools
-####1. METHODOLOGY
+##Some Screenshots from the working simulations
+
+### Methodology and Equipment/Tools
+#### 1. METHODOLOGY
 The methodology is to have a drone that takes coordinates in terms of longitude and latitude and
 moves to a destination way point after reaching target altitude. The coordinates can be reset by
 using by SSH via Laptop to the mission script. The drone adjusts its path using GPS and Open
@@ -28,7 +30,7 @@ CV. On reaching its destination, precision landing would be performed by using A
 by which delivery process is performed. Finally the drone takes off again and reallocates to its
 launch zone where again precession landing is performed using ArUco marker.
 
-####2. EQUIPMENT/TOOLS
+#### 2. EQUIPMENT/TOOLS
 **Hardware Tools:**
 Drone Frame, Brushless Motors, Propellers, ESC (Electronic Speed Controller), Battery, Flight
 Controller, Power Distribution Board, GPS module, Ultrasonic sensors, Raspberry Pi, RPi
@@ -37,4 +39,5 @@ Camera, Delivery Module, USB 4G LTE Dongle
 **Software Tools:**
 Python based scripts, OS-Linux, ROS (Robot Operating System) and ArduPilot, DroneKit,
 Gazebo Simulator
+
 
