@@ -56,4 +56,41 @@ Camera, Delivery Module, USB 4G LTE Dongle
 Python based scripts, OS-Linux, ROS (Robot Operating System) and ArduPilot, DroneKit,
 Gazebo Simulator
 
+### **Project Background and Literature Review**
+Our project is divided into five modules which are listed as following:
 
+**Drone Hardware Selection and Assembling**
+Selecting hardware for your Multi-Rotor will allow you to conclude that how much payload your
+drone is going to carry what decisions are going to be made. We are considering for a Linux
+based Raspberry Pi along with the flight controlled to control the motors.
+There are some necessary parameters to consider like correct Thrust to Weight Ratio (TWR)
+and DriveTrain (DT). A wrong TWR means not able to generate sufficient thrust. For achieving
+desired TWR, we need to consider DT which is combination of Motor, Battery and Propellers.
+Thrust and current draw are the important functions of DT. Selecting Electronic Speed
+Controller (ESC) is again a necessary factor because if we under specify the ESC it is going to
+fry and damage the whole vehicle. We can use a locking mechanism which can be controlled
+through a motor pulling and pushing the cylindrical hook and release the object.
+Maneuvering the Drone Autonomously
+
+A python script can make the drone take off and land autonomously. It will arm the vehicle,
+supply necessary information to the flight controller and the vehicle can take off by itself. Similar
+functions can be written to perform a landing by manipulating the parameters to land the drone.
+There are several drone modes like Return to Launch, Loiter, ALT-Hold and LAND.
+
+**Coordinate Navigation Using GPS**
+Our vehicle will get the coordinates using mounted GPS module on our multi-rotor. So we need
+precise and accurate coordinates in order for the flight controller to perform smooth performance
+towards the destination. Our companion computer should know the final destination which should
+be a mission for the drone to follow.
+
+**Precision landing using Open CV**
+We can use ArUco markers, calibrate the dimension and force our drone to land precisely on the
+marker which will achieve our goal of precise coordinate landing.
+
+**Object Detection and Collision Avoidance**
+We can attach ultrasonic sensors to create a bitmap and allow the companion computer to
+generate the flyable region for the vehicle while avoiding the obstacles during the mission.
+
+**Drone Tracking on Android Application (Add-On)**
+The android application can have a feature to track the drone during its flight and we can check
+the status of parcel being picked up and dropped on the correct coordinate.
