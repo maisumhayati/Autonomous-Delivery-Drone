@@ -19,7 +19,23 @@ sector by providing efficient transport management as it cut downs the vehicle f
 time of the human labor responsible for the parcel delivery. The idea is to use the technology in
 order to help humanity and a system like this can bring hope that not all tasks are futile.
 
-##Some Screenshots from the working simulations
+## Some Screenshots from the working simulations and code snippets
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/Gazebo.PNG)
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/MAV.PNG)
+
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/QGROUNDCONTROL.PNG)
+
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/ROS.PNG)
+
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/ROS_2.PNG)
+
+
+![alt text](https://github.com/maisumhayati/Autonomous-Delivery-Drone/blob/main/Images/ROS_3.PNG)
 
 ### Methodology and Equipment/Tools
 #### 1. METHODOLOGY
